@@ -1,0 +1,25 @@
+git add 文件名
+git add -u
+git commit -m '提交说明'
+
+git status 
+
+#查看历史
+git log
+git log --oneline
+#最近2次
+git log -n2
+#查看所有分支,图形化
+git log --all --graph
+
+
+#删除
+git rm 文件名
+
+#变更
+git mv 原文件名  新文件名
+
+#查看分支版本
+git branch -v
+
+git checkout -b
